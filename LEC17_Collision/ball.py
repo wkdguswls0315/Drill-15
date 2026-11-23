@@ -49,10 +49,8 @@ class Ball:
             game_world.remove_object(self)
         elif group == 'ball:zombie':
             game_world.remove_object(self)
-            game_world.remove_object(other)
         elif group == 'boy:ball':
             game_world.remove_object(self)
         elif group == 'boy:zombie':
             game_framework.quit
-        
 
